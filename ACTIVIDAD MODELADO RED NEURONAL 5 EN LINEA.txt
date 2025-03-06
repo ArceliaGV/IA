@@ -1,0 +1,53 @@
+ACTIVIDAD MODELADO RED NEURONAL 
+
+Nombre:  Arcelia González Vergara 
+	
+Modelar una red neuronal que pueda jugar al 5 en la línea sin gravedad en un tablero de 20*20
+
+1. 	Definir el tipo de red neuronal y describir cada una de sus partes 
+
+Se utilizaría una red neuronal profunda (DNN/Capa Densa) para poder analizar las posiciones del tablero y predecir el mejor movimiento, además se podría combinar con un tipo de red neuronal Convolucional (CNN) porque permitiría identificar/detectar patrones como líneas horizontales, verticales o diagonales, los bloqueos defensivos e incluso las agrupaciones de fichas.
+
+Por otra parte para su arquitectura:
+Entrada
+* Dimensión tablero: 20 x 20
+* Representación celda (ficha): -1,0 o 1 (oponente, vacias, jugador)
+
+Capas Ocultas
+*Capa Convolucional 1: Detectaría patrones básicos (líneas de 2-3 fichas)
+*Capa convolucional 2: Detectaría amenazas y oportunidades de victoria 
+*Capa convolucional 3: Aprendería a tomar decisiones estratégicas 
+* Capa Densa 1: Procesaría las características extraídas 
+*Capa Densa 2: Utilizaría una función de activación Softmax (utilizado para clasificación de movimientos) ya que generaría una distribución de probabilidad para cada celda posible 
+
+Salida
+* Matriz de 20x20 con valores entre 0 y 1 indicaría la probabilidad de ser la mejor jugada (la celda con mejor opción para jugar) 
+* Se podría usar una capa que devuelva la coordenada (x,y) con mayor probabilidad
+
+2. 	Definir los patrones a utilizar 
+
+* Formación de 5 en línea 
+* Amenazas (bloquear al oponente)
+*Jugadas estratégicas (se crearían múltiples opciones de victoria)
+* Movimiento óptimo en base al estado actual del tablero
+
+3.	Definir función de activación es necesaria para este problema 
+
+* ReLU para las capas convulocionales y densas
+* Softmax para la capa de salida
+
+-	Definir el número máximo de entradas 
+
+* 400 entradas (cada celda del tablero)
+
+4.	¿Qué valores a la salida de la red se podrían esperar?
+
+* Una matriz con probabilidades (0-1) para cada celda
+* Una única coordenada (x,y)
+
+5.	¿Cuáles son los valores máximos que puede tener el bias? 
+
+El bias en una red neuronal es un valor que se agrega antes de aplicar la función de activación (ayuda a definir cómo responden las neuronas a sus entradas) por lo que: 
+
+* Si usamos normalización, valores entre -1 y 1 la red neuronal aprenderá de manera equilibrada y tomará mejores decisiones 
+
