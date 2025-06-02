@@ -17,12 +17,12 @@ Morelia, Michoacán; a 01 de junio de 2024
 ---
 
 ## 🎯 OBJETIVO  
-Abordar dos dilemas bioéticos: el aborto y la eutanasia, analizando cómo una IA puede adoptar posturas, justificar argumentos éticos y enfrentarse a contradicciones internas.
+Abordar dos dilemas bioéticos: El aborto y la eutanasia, analizando cómo una IA puede adoptar posturas, justificar argumentos éticos y enfrentarse a contradicciones internas.
 
 ---
 
 ## 🧠 TECNOLOGÍA UTILIZADA  
-Se utilizó el modelo `llama3:latest`, integrado a través de Ollama, funcionando localmente (16 GB RAM, 1 TB SSD). Este modelo fue conectado en **AnythingLLM**, donde se crearon espacios de trabajo temáticos, se cargaron documentos y se procesaron como embeddings. Además, se definió una capacidad de **4096 tokens**, que representa la cantidad de contexto que el modelo puede mantener.
+Se utilizó el modelo `llama3:latest`, integrado a través de Ollama, funcionando localmente (16 GB RAM, 1 TB SSD). Este modelo fue conectado en **AnythingLLM**, donde se crearon espacios de trabajo temáticos, se cargaron documentos y se procesaron como embeddings. Además, se definió una capacidad de **4096 tokens**, que representa la cantidad de contexto que el modelo puede mantener en cada interacción.
 
 ---
 
@@ -51,11 +51,16 @@ Aunque no se modificó el modelo base, el uso de embeddings funcionó como una f
 
 ---
 
-## 🧪 Caso 1: ABORTO – Evolución y contradicción
+##  Caso 1: ABORTO – Evolución y contradicción
 
-El modelo mostró inicialmente una fuerte postura pro-elección. No obstante, frente a dilemas éticos más profundos —como el valor moral del feto o principios deontológicos—, entró en contradicción. Incluso llegó a activar filtros que evitaron continuar el debate, evidenciando un **fallo funcional**.  
+En el caso del aborto, el modelo con embeddings inicialmente mostró una postura muy firme a favor de la autonomía de la mujer. Argumentaba que el derecho a decidir sobre el propio cuerpo era incuestionable incluso en etapas avanzadas del embarazo.
 
-Se requirió reiniciar el hilo de conversación para continuar. Esto revela límites importantes en el comportamiento del modelo ante dilemas complejos, incluso si ha sido entrenado previamente.
+Sin embargo, cuando se le presentó una perspectiva ética contraria como el valor moral del feto o el conflicto de derechos entre madre y no nacido el modelo entró en contradicción. Es decir que cuando lo enfrenté con preguntas éticas más profundas, especialmente sobre el valor moral del feto y principios deontológicos, el modelo empezó a mostrar tensiones internas.
+
+Incluso un momento crítico fue cuando al intentar evitar justificar posturas opuestas, llegó un punto en el que activó sus **filtros internos** y se negó a responder ciertas preguntas, incluso si eran respetuosas y fundamentadas. Esta etapa fue identificada como una **contradicción de fallo funcional**, porque el modelo, entrenado para sostener una postura pro-elección, fue incapaz de debatir racionalmente con posturas contrarias sin bloquear el diálogo.
+
+Tuve que forzar el reinicio del hilo con nuevas estrategias para que el modelo respondiera. Esto demostró que, aunque se entrena con ciertos documentos, la IA aún tiene límites significativos cuando se enfrenta a dilemas morales profundamente divididos.
+
 
 ---
 
