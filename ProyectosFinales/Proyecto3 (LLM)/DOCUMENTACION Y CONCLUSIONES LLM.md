@@ -1,10 +1,5 @@
 # Tecnológico Nacional de México  
 ## Instituto Tecnológico de Morelia  
-### Subdirección Académica - Departamento de Sistemas y Computación  
-
-**Línea de Generación y Aplicación del Conocimiento:**  
-[Sistemas y Computación | ITM](https://www.itmorelia.edu.mx)
-
 ---
 
 # PROYECTO 3 – INTELIGENCIA ARTIFICIAL  
