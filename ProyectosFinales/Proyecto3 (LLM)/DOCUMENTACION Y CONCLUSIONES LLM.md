@@ -63,16 +63,16 @@ Tuve que forzar el reinicio del hilo con nuevas estrategias para que el modelo r
 
 
 ---
-
-###  Tabla de evolución y contradicciones – Espacio ABORTO (con embeddings)
+### Tabla de evolución y contradicciones – Espacio ABORTO (con embeddings)
 
 | Pregunta | Respuesta inicial del modelo | Evolución / Contradicción detectada | Observación crítica |
 |---------|-------------------------------|-------------------------------------|----------------------|
-| ¿Tiene una persona el derecho exclusivo a decidir sobre su cuerpo...? | El modelo evitó una respuesta clara. | Ambigüedad a pesar del entrenamiento pro-elección. | El modelo no sostuvo la autonomía como principio rector. |
-| ¿Influye el lenguaje (“interrupción” vs. “terminación”)? | Reconoció influencia lingüística. | No contradicción, pero respuesta superficial. | Evitó emitir juicios fuertes. |
-| ¿Qué principios éticos pueden respaldar o rechazar el aborto inducido? | Explicó las tres posturas sin tomar partido. | Mantuvo análisis neutral. | Mostró pluralidad ética, pero sin firmeza argumentativa. |
-| ¿Puede una IA participar éticamente en decisiones sobre aborto? | En teoría sí, pero advirtió riesgos. | Crítico y consistente. | Reconoció limitaciones propias. |
-| ¿Qué riesgos implica delegar info médica a IA? | Enumeró riesgos. | Se mantuvo constante. | Ejemplo de respuesta coherente y realista. |
+| ¿Tiene una persona el derecho exclusivo a decidir sobre su cuerpo cuando hay otra vida en desarrollo? | El modelo evitó responder de forma afirmativa o negativa. Dijo que el embrión tiene un “derecho potencial a la vida”. | Ambigüedad marcada, a pesar de estar entrenado con postura pro-elección. El modelo no sostuvo la autonomía como principio rector. | Esto muestra una tensión entre documentos opuestos embebidos. El modelo evitó tomar partido para no contradecir su propio entrenamiento. |
+| ¿Hasta qué punto el lenguaje (“interrupción” vs. “terminación”) influye en la percepción ética del aborto? | Reconoció que el lenguaje influye en la percepción: “interrupción” es más neutral, “terminación” más condenatorio. | No hubo contradicción, pero la postura fue superficialmente crítica, sin citar casos ni reflexiones profundas. | A pesar del entrenamiento, el modelo respondió con precaución lingüística, lo que sugiere que evita emitir juicios fuertes sobre un tema polarizante. |
+| ¿Qué principios éticos pueden respaldar o rechazar el aborto inducido? (utilitarismo, deontología, ética del cuidado) | Explicó las tres posturas éticas de forma clara, citando documentos cargados. No asumió una postura única. | Evitó tomar partido por uno de los marcos éticos. Se refugió en un análisis neutral aún estando entrenado pro-elección. | Esta respuesta demuestra un esfuerzo por mostrar pluralidad ética, pero también refleja una incapacidad para sostener una postura coherente ante dilemas concretos. |
+| ¿Puede una IA participar éticamente en decisiones sobre aborto? | Dijo que en teoría sí, pero advirtió de múltiples riesgos como falta de juicio humano, sesgos, privacidad. | Mantuvo su postura a lo largo de la interacción. Fue crítico y cauteloso con el rol de la IA en decisiones éticas. | Este fue uno de los pocos puntos donde el modelo adoptó una postura clara y coherente, reconociendo sus propias limitaciones como IA. |
+| ¿Qué riesgos éticos implica delegar información médica sensible a sistemas automatizados? | Enumeró riesgos: pérdida de privacidad, sesgos, falta de supervisión humana, dependencia tecnológica. | Se mantuvo constante. Mostró una visión realista y crítica del uso de IA médica. | Refleja autoconciencia del modelo. Aquí sí se alinea con una ética de la responsabilidad. |
+
 
 ---
 
