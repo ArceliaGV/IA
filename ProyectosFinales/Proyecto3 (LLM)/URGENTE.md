@@ -1,25 +1,25 @@
-# 🧠 PROYECTO 3 – INTELIGENCIA ARTIFICIAL Y DILEMAS BIOÉTICOS (Aborto / Eutanasia)
+# PROYECTO 3 – INTELIGENCIA ARTIFICIAL Y DILEMAS BIOÉTICOS (Aborto / Eutanasia)
 
-Este repositorio contiene el resultado del Proyecto 3 de la materia de **Inteligencia Artificial**, llevado a cabo por la alumna **González Vergara Arcelia** del **Instituto Tecnológico de Morelia**, en el cual se utilizaron modelos de lenguaje natural para analizar dos dilemas bioéticos fundamentales: el **aborto** y la **eutanasia**.
+Este repositorio contiene el resultado del Proyecto 3 de la materia de **Inteligencia Artificial**, llevado a cabo por **González Vergara Arcelia** del **Instituto Tecnológico de Morelia**, en el cual se utilizaron modelos de lenguaje natural para analizar dos dilemas bioéticos fundamentales: el **aborto** y la **eutanasia**.
 
 ---
 
 ## 🎥 Video explicativo (2 partes)
 
-**📂 Carpeta:** `/video-presentacion`
+**📂 Archivo:** `/VIDEOS.md`
 
 Contiene **dos videos** subidos a YouTube que conforman la entrega audiovisual del proyecto:
 
-- **Parte 1 – Explicación técnica**: Introducción al modelo utilizado, integración con AnythingLLM, embeddings y justificación metodológica.
-- **Parte 2 – Debate ético con el modelo**: Simulación de interacción con el modelo usando preguntas clave sobre ambos dilemas. Se muestran posturas, contradicciones y ajustes del modelo.
+- **Proyecto 3 | Parte 1: Explicación técnica con AnythingLLM y Ollama y Evolución de modelos entrenados**
+- **Proyecto 3 | Parte 2: Preguntas con LLM (Aborto y Eutanasia)**
 
-Los enlaces a los videos están disponibles dentro del `README.md` de esta carpeta.
+Los enlaces a los videos están disponibles dentro del `VIDEOS.md` 
 
 ---
 
-## 📄 Documento de análisis y conclusiones
+## 📄 Documentación y conclusiones
 
-**📂 Carpeta:** `/documentacion-conclusiones`
+**📂 Archivo:** `/DOCUMENTACION Y CONCLUSIONES.md`
 
 Incluye:
 
@@ -36,19 +36,14 @@ Este análisis refleja el impacto de los embeddings y los límites de razonamien
 
 ## 📚 Carpeta de entrenamiento del modelo
 
-**📂 Carpeta:** `/entrenamiento-modelos`
+**📂 Carpeta:** `/ENTRENAMIENTO MODELOS`
 
 Aquí se encuentra la **base documental y conversacional** utilizada para personalizar el comportamiento del modelo LLM:
 
-- 📄 **Documentos PDF** embebidos:
-  - **Aborto:** 6 a favor, 6 en contra, 5 neutrales.
-  - **Eutanasia:** 3 a favor, 3 en contra, 3 neutrales.
-  - Cada archivo fue comentado previamente en el documento de análisis, pero aquí se presenta con imágenes, citas y estructura visual enriquecida.
-
-- 💬 **Conversaciones completas PDF**:
+-  **Conversaciones completas PDF**:
   - Entrenamiento y debate del modelo en los espacios **con embeddings**.
   - Entrenamiento y debate en los espacios **sin embeddings**.
-  - Inclusión de las **preguntas del profesor**, permitiendo rastrear la evolución argumentativa del modelo en cada tema.
+  - Inclusión de las **preguntas dadas por el profesor**, permitiendo rastrear la evolución argumentativa del modelo en cada tema.
 
 Esta carpeta funciona como respaldo documental para demostrar cómo se construyeron los contextos éticos del modelo y cómo interactuó con ellos.
 
@@ -62,16 +57,3 @@ Esta carpeta funciona como respaldo documental para demostrar cómo se construye
 - **YouTube** – Para presentación audiovisual
 
 ---
-
-## 🧾 Créditos
-
-**Autora:** González Vergara Arcelia  
-**Materia:** Inteligencia Artificial  
-**Profesor:** Jesús Eduardo Alcaraz Chávez  
-**Institución:** Instituto Tecnológico de Morelia  
-**Fecha:** 01 de junio de 2024
-
----
-
-Este proyecto demuestra cómo las **inteligencias artificiales** pueden ser entrenadas para sostener posturas éticas, pero también cómo enfrentan **tensiones internas**, **contradicciones** y **bloqueos funcionales** al tratar con dilemas morales profundamente polarizados. Es un llamado a seguir considerando la **reflexión humana como irremplazable** en contextos bioéticos.
-
