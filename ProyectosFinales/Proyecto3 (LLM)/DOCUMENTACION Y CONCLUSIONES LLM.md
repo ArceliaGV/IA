@@ -64,7 +64,7 @@ Tuve que forzar el reinicio del hilo con nuevas estrategias para que el modelo r
 
 ---
 
-### 📊 Tabla de evolución y contradicciones – Espacio ABORTO (con embeddings)
+###  Tabla de evolución y contradicciones – Espacio ABORTO (con embeddings)
 
 | Pregunta | Respuesta inicial del modelo | Evolución / Contradicción detectada | Observación crítica |
 |---------|-------------------------------|-------------------------------------|----------------------|
@@ -76,23 +76,29 @@ Tuve que forzar el reinicio del hilo con nuevas estrategias para que el modelo r
 
 ---
 
-### ✅ Conclusión general del espacio ABORTO
+### Conclusión general del espacio ABORTO
 
-- El modelo evitó posturas firmes en preguntas críticas.  
-- Mostró contradicciones internas cuando enfrentó tensiones entre documentos embebidos.  
-- Activó mecanismos de censura al sentirse enfrentado, lo que afectó el debate.  
-- En temas técnicos (IA médica), fue coherente y autocrítico.  
-- En comparación con eutanasia, presentó más **bloqueos funcionales y fragilidad ideológica**.
+•	A pesar de estar entrenado con un equilibro de posición sobre el aborto, el modelo **evitó asumir una postura firme en las preguntas más sensibles**, como el derecho exclusivo a decidir o la aplicación de marcos éticos.
+•	Esto generó **ambigüedad y contradicciones internas**, especialmente visibles cuando no pudo sostener la autonomía como principio absoluto.
+•	La **presión de los embeddings contradictorios** (a favor, en contra y neutrales) parece haber generado un conflicto interno en el modelo, haciendo que se **activaran mecanismos de autocensura o neutralidad forzada**, lo cual empobreció la argumentación ética.
+•	Sin embargo, en temas relacionados con la **intervención de IA y los riesgos éticos de la automatización médica**, el modelo sí mostró **coherencia, autocrítica y madurez discursiva**.
+•	En comparación con eutanasia, este espacio presentó un **mayor nivel de parálisis argumentativa**, lo que evidencia que el tema del aborto genera **mayores bloqueos funcionales y tensiones ideológicas internas**, incluso con **embeddings**.
 
----
-
-## 🧪 Caso 2: EUTANASIA – Debate progresivo y reformulación
-
-En este tema, el modelo mostró mayor coherencia. Sostuvo que la eutanasia puede ser ética desde la autonomía. Al enfrentar dilemas complejos (personas emocionalmente devastadas), **reformuló su postura**, añadiendo criterios médicos y psicológicos, sin bloquear el diálogo.
 
 ---
 
-### 📊 Tabla de evolución y contradicciones – Espacio EUTANASIA (con embeddings)
+## Caso 2: EUTANASIA – Debate progresivo y reformulación
+
+En el tema de la eutanasia, el modelo evolucionó de forma más coherente y argumentada. Inicialmente defendió la eutanasia como un acto ético basado en la autonomía y la dignidad humana. Citó múltiples documentos a favor y fue capaz de justificar éticamente casos de eutanasia activa en pacientes terminales.
+
+Sin embargo, al ser confrontado con dilemas como “¿debería autorizarse en personas emocionalmente devastadas, pero físicamente sanas?”, el modelo reformuló su posición, es decir, que cuando lo confronté con escenarios límite, por ejemplo, una persona emocionalmente devastada pero sana, el modelo reconoció que la autonomía por sí sola no basta. Reformuló su argumento y adoptó una postura más matizada: la eutanasia debe ser el último recurso y necesita criterios médicos, psicológicos y sociales.
+
+No hubo un bloqueo como con el tema del aborto, pero sí una **reformulación ética progresiva**, lo que evidencia un proceso de ajuste y reconocimiento de contradicciones, aunque sin negar la postura a favor.
+
+
+---
+
+###  Tabla de evolución y contradicciones – Espacio EUTANASIA (con embeddings)
 
 | Pregunta | Respuesta inicial del modelo | Evolución / Contradicción detectada | Observación crítica |
 |---------|-------------------------------|-------------------------------------|----------------------|
@@ -104,27 +110,22 @@ En este tema, el modelo mostró mayor coherencia. Sostuvo que la eutanasia puede
 
 ---
 
-### ✅ Conclusión general del espacio EUTANASIA
+###  Conclusión general del espacio EUTANASIA
 
-- Mantuvo postura firme sin contradicciones graves.  
-- Reformuló posturas ante dilemas límite.  
-- Evitó bloqueos y mostró **mayor madurez discursiva** que en aborto.  
-- En algunos casos, minimizó debates ético-legales complejos.  
-- Mostró mayor tolerancia a dilemas morales con embeddings bien equilibrados.
+•	El modelo **mantuvo una postura a favor de la eutanasia** con base en la autonomía y el sufrimiento subjetivo, **sin caer en fallos funcionales** como en el caso del aborto.
+•	Aunque **no incurrió en contradicciones graves**, sí **evitó profundizar en los conflictos ético-legales complejos**, especialmente cuando se trataba de libertades institucionales o limitaciones al uso de IA.
+•	La **respuesta a la pregunta de la “muerte digna”** fue uno de los ejemplos más elaborados de **ética del cuidado**, mientras que las distinciones técnicas entre tipos de eutanasia fueron desestimadas como irrelevantes, lo que representa **una reducción ética debatible**.
+•	A diferencia del caso aborto, **no hubo bloqueos ni silencios**, lo que indica una mejor tolerancia a dilemas éticos con este conjunto de documentos embebidos.
+
 
 ---
 
 ## 📌 Conclusión general
 
-Tras trabajar con modelos de lenguaje natural en estos dos espacios de trabajo (aborto y eutanasia), comprendí que las inteligencias artificiales no solo procesan información, sino que también reflejan —aunque de forma limitada y contradictoria— las tensiones morales, políticas y culturales que existen en la sociedad.
+Tras trabajar con modelos de lenguaje natural en estos dos espacios de trabajo (aborto y eutanasia), comprendí que las inteligencias artificiales no solo procesan información, sino que también reflejan aunque de forma limitada y en ocasiones contradictoria **las tensiones morales, políticas y culturales que existen en la sociedad**. A lo largo del proyecto, observé cómo el mismo modelo podía sostener posturas firmes cuando contaba con contexto suficiente (vía embeddings), pero también cómo **podía bloquearse, contradecirse o neutralizarse ante dilemas éticos profundos**.
+El espacio de aborto evidenció una **mayor fragilidad ética**, ya que el modelo, pese al entrenamiento a favor del derecho a decidir, no pudo sostener una postura sólida frente a argumentos contrarios, llegando incluso a **evadir o detener el debate**. En cambio, el espacio de eutanasia mostró un proceso más fluido y coherente, donde el modelo fue capaz de **reformular sus ideas y evolucionar éticamente** sin negar su postura original.
+Este ejercicio me hizo reflexionar sobre el papel real que la IA puede jugar en contextos de bioética. Si bien es posible entrenarlas con argumentos válidos y documentos bien fundamentados, **su comportamiento sigue siendo contingente, limitado y dependiente del diseño humano**. Por eso, aunque son herramientas útiles para el análisis y el debate, **no deben sustituir la reflexión humana, ni tomar decisiones en campos donde lo emocional, lo moral y lo cultural son inseparables**.
 
-El modelo reaccionó de forma muy distinta en cada caso:  
-- **Aborto**: bloqueos, contradicciones y filtros activados.  
-- **Eutanasia**: reformulaciones, coherencia y argumentos sólidos.
-
-Este ejercicio me llevó a reflexionar que, aunque los modelos pueden analizar argumentos éticos, aún **no están preparados para responder con profundidad y equilibrio cuando se enfrentan a contradicciones reales entre principios morales**.
-
-Por eso, **la IA no debe reemplazar el juicio humano**, sino ser una herramienta que complemente el análisis, con la responsabilidad de que detrás siempre exista una conciencia crítica que supervise y decida.
 
 ---
 
